@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="inquiry/post" method="POST">
+            要件 <select name="inquiry_subject">
+                <option value="製品について">製品について</option>
+                <option value="会社について">会社について</option>
+                <option value="サービスについて">サービスについて</option>
+                <option value="その他">その他</option>
+            </select>
+            <br>
+            メールアドレス <input type="email" name="email"><br>
+            電話番号 <input type="tel" name="tel"><br>
+            問い合わせ内容 <textarea name="inquiry_body" required></textarea>
+            <br><br>
+            <button>ログインする</button>
+            
+        </form>
+    </body>
+</html>
